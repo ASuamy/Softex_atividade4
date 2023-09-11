@@ -5,91 +5,76 @@
 
 /*estilizando a barra de navegação*/
 .navbar {
-    background-color: #f2913d;
-    padding: 40px;
+    background-color: #064587;
+    padding: 30px;
    
 }
 
-.navbar ul{
-    float: right;
-    height: 50px;
-    line-height: 50px;
-    margin: 0;
-}
-
-.navbar ul li{
-    list-style: none;
-    float: left;
-    margin: 0 15px;
-    font-family: sans-serif;
-    font-weight: bold;
-}
-
 .navbar h3 {
-    font-family: 'Chango', cursive;
-    font-size: 50px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 70px;
     text-align: center;
-    color: #402333 ;
+    color: #ffaa00;
 }
 
-.navbar li a{
-    text-decoration: none;
-    color:#000000;
-    transition: .5s;
+.navbar h4 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #ffaa00;
 }
 
-.navbar li a:hover{
-    color: yellow;
-}
+
 
 /* estilizando o conteúdo */
 
 
-.corpo h4{
+.projeto2 h4{
     margin-top: 40px;
-    font-family: sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
     font-size: 25px;
     text-align: center;
 }
 
-.corpo figcaption {
-    text-align: center;
-    font-family: sans-serif;
-    font-style: italic;
-    margin-top: 10px;
-}
-
-.corpo figcaption a {
-    text-decoration: none;
-    color: #000000;
-    font-size: 18px;
-}
-
-.corpo figcaption a:hover{
-    color: blue;
-}
-.corpo {
-    padding: 40px 50px;
-    margin-left: 30px;
-
-}
-
-.corpo img {
-    margin-top: 30px;
-    margin-right: 30px;
-    width: 450px;
-    height: 400px;
-}
-
-.display-grupo {
+.projeto2 {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row; 
-    flex-wrap: wrap;
-  }
+    justify-content:space-between;
+    font-family: 'Titillium Web', sans-serif;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:left;
+    padding: 4px;
+}
 
+.projeto3 h4 {
+    font-family: 'Titillium Web', sans-serif;
+    
+}
 
+.projeto3 {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    
+}
+
+.projeto3 ul li{
+    padding: auto;
+    float: left;
+    margin: 0 15px;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+.video {
+    margin: 0 auto;
+    width: 500px;
+}
   /* estilizando o rodapé */
 
   .rodape {
@@ -97,6 +82,7 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
+    margin-top: 100px;
   }
 
   .rodape .logo {
